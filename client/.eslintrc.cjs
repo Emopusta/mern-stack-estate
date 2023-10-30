@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'no-unused-vars': 'off',
+    'eslint-disable' :'react/prop-types',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
