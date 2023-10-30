@@ -46,7 +46,7 @@ useEffect(() => {
     }
 
     fetchListing();
- }, []);
+ }, [params.listingId]);
 
 
   const handleImageSubmit = (e) => {
